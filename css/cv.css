@@ -1,0 +1,118 @@
+body {
+    background-color: #dbd7d7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    min-width: 900px;
+    position: relative;
+    overflow: auto;
+}
+
+#banner {
+    background-image: url(https://images.unsplash.com/photo-1574192324001-ee41e18ed679?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-color: rgb(12, 117, 33);
+    padding:15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#menulist{
+    padding:0;
+    position: relative;
+    overflow: auto;
+    font-size:large;
+}
+
+#menulist li{
+    width:165;
+    float:left;
+    background-color: gray;
+    list-style-type: none;
+    margin: 4px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#menulist li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menulist li:hover{
+    background-color: #199538;
+}
+
+h1, h2, h3 {
+    color:rgb(19, 155, 74);
+}
+
+#servicelist{
+    padding:0;
+    position: relative;
+    overflow: auto;
+}
+
+.serviceitem{
+    width: 300px;
+    float:left;
+    background-color: rgb(203, 172, 20);
+    list-style-type: none;
+    margin: 4px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#resumelist{
+    padding:0;
+    position: relative;
+    overflow: auto;
+}
+
+.resumeitems {
+    width:30%;
+    float:left;
+    border-radius: 10px;
+    padding:5px;
+    margin:4px;
+}
+
+.section-header {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.section-header h2 {
+    text-align: center;
+}
+
+#backtotop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border:none;
+    outline: none;
+    background-color: #1f6227;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#backtotop:hover {
+    background-color: rgb(39, 48, 207);
+}
